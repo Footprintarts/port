@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Prata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=DM+Serif+Text:ital@0;1&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Font */
+@font-face {
+  font-family: "NeueM";
+  src: url("/fonts/neueM.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "NeueM", "Plus Jakarta Sans", sans-serif;
+}
+
+/* --EXTRA Fonts---- */
+.font-1 {
+  font-family: "Bricolage Grotesque", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  /* font-style: normal; */
+}
+
+a.active hr {
+  display: block;
+}
+
+::-webkit-scrollbar {
+  display: none;
+  -webkit-scrollbar: none;
+}
+
+@media (max-width: 640px) {
+  a.active {
+    background-color: #1b1b1b;
+    color: #f9f9f9;
+  }
+}
+
+/* ImageTester */
+.IMG1 {
+  background-image: url(./assets/images/leather_jacket.jpg);
+  /* background: red; */
+  background-size: cover;
+  background-position: center;
+}
+
+/* ------ */
+
+.transition2 {
+  transition: all 0.3s ease-in-out;
+}
+
+.test {
+  background-color: plum;
+}
+
+/* CUSTOM_UTIITIES */
+
+@layer utilities {
+  .btn-hover {
+    @apply hover:bg-transparent hover:border hover:border-zinc-600 hover:transition-all;
+  }
+
+  .link-hover {
+    @apply hover:text-blue-400 transition-all duration-150 ease-in hover:-translate-y-1 cursor-pointer;
+  }
+
+  .card-hover {
+    @apply hover:bg-zinc-800 transition-all hover:text-zinc-100 duration-500;
+  }
+
+  .centered-row {
+    @apply flex items-center;
+  }
+
+  .black-text {
+    @apply text-zinc-500/90;
+  }
+
+  .line-bottom {
+    @apply border-b border-b-zinc-500/40;
+  }
+
+  .grad-text {
+    @apply bg-gradient-to-r text-transparent bg-clip-text;
+  }
+
+  .grad-head {
+    @apply grad-text from-zinc-100 via-lime-500 to-[#adfe02];
+  }
+
+  .sticky_header {
+    @apply w-full h-[80px] sticky top-0 left-0 z-[999] backdrop-blur shadow;
+  }
+
+  .center-item {
+    @apply centered-row justify-center;
+  }
+
+  .link-hover {
+    @apply hover:font-bold hover:text-zinc-800 transition-all duration-300 ease-in-out;
+  }
+}
