@@ -1,5 +1,5 @@
-import Logo_dark from "./logo_dark.png";
-import Logo_light from "./logo_light.png";
+import Logo_dark from "./Logo_dark.png";
+import Logo_light from "./Logo_light.png";
 import Profile from "./profileTest.png";
 import Profile02 from "./green2.png";
 import Project1 from "./project-1.png";
