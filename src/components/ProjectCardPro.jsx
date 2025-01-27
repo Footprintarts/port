@@ -42,7 +42,7 @@ const ProjectCard = ({ project }) => {
         </figure>
 
         <div className="card-content mt-4">
-          <span className="card-subtitle text-sm text-zinc-500">
+          <span className="card-subtitle text-sm md:text-lg lg:text-xl text-zinc-300">
             {project.type}
           </span>
 

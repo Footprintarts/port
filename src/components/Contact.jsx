@@ -66,11 +66,11 @@ const Contact = () => (
               <p className="label-small  text-lime-300">MAIL ME</p>
 
               <a href="mailto:khalid@techgulf1.com" className="label-small">
-                khalid@techgulf1.com
+                mallyac17@gmail.com
               </a>
 
               <a href="mailto:khalid@service.com" className="label-small">
-                khalid@service.com
+                footprintarts17@gmail.com
               </a>
             </div>
           </li>
@@ -106,7 +106,7 @@ const Contact = () => (
               <p className="label-small  text-lime-300">ADDRESS</p>
 
               <a href="#" className="label-small">
-                Al Azbakeya, Cairo Governorate 4320001, Egypt
+                Dar es Salaam, Ilala District, 12345, Tanzania
               </a>
             </div>
           </li>
@@ -116,14 +116,18 @@ const Contact = () => (
 
         <div className="social-list">
           <a
-            href="#"
+            href="https://linkedin.com/in/charles-mallya-a26530280"
+            target="_blank"
+            rel="noopener noreferrer"
             className="social-item hover:bg-blue-500 hover:-translate-y-1 transition-all duration-300 rounded-lg"
           >
             <img src={svg.linkedIn} alt="" className="w-10" />
           </a>
 
           <a
-            href="#"
+            href="https://github.com/Footprintarts"
+            target="_blank"
+            rel="noopener noreferrer"
             className="social-item hover:bg-zinc-950 transition-all hover:-translate-y-1 duration-300 rounded-lg"
           >
             <img src={svg.github} alt="" className="" />
