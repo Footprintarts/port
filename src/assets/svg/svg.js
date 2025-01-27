@@ -11,7 +11,7 @@ import mongoDB from "./mongoDB.svg";
 import node from "./node.svg";
 import react from "./react.svg";
 import twitter from "./twitter.svg";
-import Vs_code from "./Vs_code.svg";
+import Vs_code from "./VS_code.svg";
 import work from "./work.svg";
 import linkedIn from "./linkedIn.svg";
 
