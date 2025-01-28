@@ -14,7 +14,7 @@ const ProjectCard = ({ project }) => {
       </figure>
 
       <div className="card-content">
-        <span className="label-large card-subtitle">{project.type}</span>
+        <span className="label-large  card-subtitle">{project.type}</span>
 
         <h3 className="title-large card-title">{project.title}</h3>
       </div>

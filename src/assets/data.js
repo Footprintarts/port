@@ -3,12 +3,12 @@ import svg from "./svg/svg";
 const ExperienceText = [
   {
     id: "1",
-    title: "Software Engineer, TechGulf Solutions",
+    title: "Software Engineer, TechGulf Solutions(PlaceHolder)",
     years: "2018 - Present",
   },
   {
     id: "2",
-    title: "Software Developer Intern, ByteOasis Corporation",
+    title: "Software Developer Intern, ByteOasis Corporation(PlaceHolder)",
     years: "2016 - 2017",
   },
   {
@@ -20,12 +20,13 @@ const ExperienceText = [
   {
     id: "4",
     title:
-      "Relevant Coursework: Data Structures, Algorithms, Database Management",
+      "Relevant Coursework: Data Structures, Algorithms, Database Management(Placeholder)",
     years: "2014 - 2013",
   },
   {
     id: "5",
-    title: "Bachelor of Science in Computer Science, Alexandria University",
+    title:
+      "Bachelor of Science in Computer Science, Alexandria University(PlaceHolder)",
     years: "2010 - 2014",
   },
 ];
@@ -35,18 +36,18 @@ const EducationText = [
     id: "1",
     title:
       "Certification in Web Development with React.js (FreeCodeCamp Certification)",
-    years: "2015 - 2016",
+    years: "2021 - 2022",
   },
   {
     id: "2",
     title:
       "Relevant Coursework: Data Structures, Algorithms, Database Management",
-    years: "2014 - 2013",
+    years: "2022 - 2023",
   },
   {
     id: "3",
-    title: "Bachelor of Science in Computer Science, Alexandria University",
-    years: "2010 - 2014",
+    title: "Bachelor of Accounting, United African University of Tanzania",
+    years: "2021 - 2024",
   },
 ];
 

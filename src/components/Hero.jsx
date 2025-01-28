@@ -20,11 +20,11 @@ const Hero = () => (
           FrontEnd Developer
         </span>
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-1 grad-text from-zinc-100 via-lime-400 to-[#adfe02]">
-          Charles Mallya.
+          Charles Mallya.{" "}
         </h1>
         <p className="body-large section-text">
-          Lorem ipsum dolor sit amet consectetur. Quam ut feugiat ut porta morbi
-          lobortis tristique.
+          Creative, self-taught FrontEnd Developer with strong communication
+          skills, ready to learn and deliver high-quality web applications.
         </p>
         <div className="btn-wrapper">
           <a href="mailto:khalid@techgulf1.com" className="chip">
