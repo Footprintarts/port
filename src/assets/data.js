@@ -41,7 +41,7 @@ const EducationText = [
   {
     id: "2",
     title:
-      "Relevant Coursework: Data Structures, Algorithms, Database Management",
+      "Relevant Coursework: Blender, Photoshop, Illustrator, Adobe XD, Figma",
     years: "2022 - 2023",
   },
   {
