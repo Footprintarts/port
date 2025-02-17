@@ -8,6 +8,8 @@ import Project3 from "./project-3.png";
 import Project4 from "./project-4.png";
 import Project5 from "./project-5.png";
 import Project6 from "./project-6.png";
+import Project7 from "./project-7.png";
+import Project8 from "./project-8.png";
 import art from "./art.svg";
 import call from "./call.svg";
 import location from "./location.svg";
@@ -28,6 +30,8 @@ const images = {
   Project4,
   Project5,
   Project6,
+  Project7,
+  Project8,
   call,
   mail,
   sun,

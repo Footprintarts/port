@@ -46,6 +46,20 @@ const Projects = () => {
       cover1: "/covers/cover6.gif",
       link: "https://docs-clone.pages.dev",
     },
+    {
+      image: images.Project7,
+      title: "INSAGRAM - Website Clone",
+      type: "Web Page",
+      cover1: "/covers/cover7.png",
+      link: "https://instagram-clone-2-0.pages.dev/",
+    },
+    {
+      image: images.Project8,
+      title: "THREEJS FPS - Game Template(Open Source)",
+      type: "Web Experience",
+      cover1: "/covers/cover8.png",
+      link: "https://threejs-fps-2-0.pages.dev/",
+    },
   ];
 
   return (
