@@ -48,7 +48,7 @@ const Projects = () => {
     },
     {
       image: images.Project7,
-      title: "INSAGRAM - Website Clone",
+      title: "INSTAGRAM - Website Clone",
       type: "Web Page",
       cover1: "/covers/cover7.png",
       link: "https://instagram-clone-2-0.pages.dev/",
