@@ -47,13 +47,6 @@ const Projects = () => {
       link: "https://docs-clone.pages.dev",
     },
     {
-      image: images.Project7,
-      title: "INSTAGRAM - Website Clone",
-      type: "Web Page",
-      cover1: "/covers/cover7.png",
-      link: "https://instagram-clone-2-0.pages.dev/",
-    },
-    {
       image: images.Project8,
       title: "THREEJS FPS - Game Template(Open Source)",
       type: "Web Experience",
